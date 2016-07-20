@@ -2,9 +2,11 @@ Source: mastermind-cache
 Section: net
 Priority: optional
 Maintainer: Anton Kortunov <toshik@yandex-team.ru>
-Build-Depends: debhelper (>= 5),
+Build-Depends: debhelper (>= 9),
  cdbs,
  cmake (>= 2.6),
+ python-all (>= 2.7~),
+ python-pip (>= 8),
  libboost-dev,
  libboost-python-dev,
  libboost-thread-dev,

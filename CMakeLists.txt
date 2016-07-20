@@ -13,6 +13,8 @@ string (REGEX MATCH "([0-9]+$)" MINOR_VERSION "${DEBFULLVERSION}")
 
 set(CMAKE_CXX_FLAGS "-Wall -pedantic -std=c++0x")
 
+set(CMAKE_SKIP_INSTALL_RPATH 1)
+
 set(REQUIRED_LIBRARIES
 	boost_thread
 	boost_system
